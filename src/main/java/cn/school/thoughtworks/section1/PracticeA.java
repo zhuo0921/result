@@ -9,6 +9,7 @@ public class PracticeA {
 
         List<String> exist = new ArrayList(collection1);
         List<String> result = new ArrayList(collection1);
+
         exist.removeAll(collection2);
         result.removeAll(exist);
         return result;
