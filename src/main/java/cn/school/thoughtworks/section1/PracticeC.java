@@ -10,6 +10,8 @@ public class PracticeC {
 
         List<String> mapValue = collection2.get("value");
         List<String> result = new LinkedList<String>();
+
+
         for(String s : collection1){
             if(mapValue.contains(s)){
                 result.add(s);
